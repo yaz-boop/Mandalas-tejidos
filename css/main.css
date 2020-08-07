@@ -1,0 +1,49 @@
+
+.logo2{image-resolution: 100%;
+    align-items: center;
+    width: 100%;
+    text-align: center
+}  
+.image{align-items: center;}
+nav a{
+    color:white;
+    font: size 2rem;
+    font-style: bold;
+font-family: fantasy ;}
+
+img.icon{
+    width: 30px;
+}
+
+footer{
+ background-color: mediumpurple;
+    color:steelblue;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+img#logo:hover{
+    width: 1200px;
+}
+nav{height:80px;}
+nav{background-color: mediumpurple}
+
+.jumbotron{text-align: center;}
+.jumbotron{font-family: fantasy;
+}
+.container{text-align: justify;}
+.container{font-family: Arial, Helvetica, sans-serif;}
+.container{background-color: thistle;}
+
+.image2{align-items: center;}
+
+.card-text{font-family: fantasy;
+    text-align: center;}
+
+.card-title{font-family: Arial, Helvetica, sans-serif;
+    text-align: center;}
+
+
+
+
