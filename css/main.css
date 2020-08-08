@@ -1,40 +1,94 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../assets/back-om.jpg") ;
+}
 
-.logo2{image-resolution: 100%;
+.logo2{
+    image-resolution: 100%;
     align-items: center;
     width: 100%;
     text-align: center
 }  
-.image{align-items: center;}
-nav a{
-    color:white;
-    font: size 2rem;
-    font-style: bold;
-font-family: fantasy ;}
+
+.image{
+    align-items: center;
+}
+
 
 img.icon{
     width: 30px;
 }
 
+nav{
+    background-color:#8E85A7!important;
+}
+
+a.nav-link{
+ color:white;
+ font-weight: bolder;
+}
+
+a.nav-link:hover{
+    color:#310B60;
+    text-decoration: underline;
+   }
+
+   .navbar-toggler{
+       border:1px solid white !important;
+    background-color: white !important;
+   }
+
+img.logo-nav{
+    max-width: 60px;
+}
+
+
 footer{
- background-color: mediumpurple;
-    color:steelblue;
+ background-color:#8E85A7;
     height: 4rem;
     width: 100%;
+    padding: .5rem;
     text-align: center;
+    color: white;
 }
 
-img#logo:hover{
-    width: 1200px;
+footer p{
+    margin-bottom: 0;
 }
-nav{height:80px;}
-nav{background-color: mediumpurple}
 
-.jumbotron{text-align: center;}
-.jumbotron{font-family: fantasy;
+.jumbotron{
+    text-align: center;
+    font-family: fantasy;
+    margin-bottom: 0 !important;
 }
-.container{text-align: justify;}
-.container{font-family: Arial, Helvetica, sans-serif;}
-.container{background-color: thistle;}
+
+.content{
+    text-align: justify;
+    background-color: thistle;
+}
+
+div#about{
+ padding: 2rem;
+}
+
+
+div#carousel div {
+    padding: 0!important;
+}
+
+div.carousel-caption{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+div#typesMandalas{
+ padding: 2rem;
+}
+
+div#made{
+    padding: 2rem;
+}
+
 
 .image2{align-items: center;}
 
@@ -44,6 +98,11 @@ nav{background-color: mediumpurple}
 .card-title{font-family: Arial, Helvetica, sans-serif;
     text-align: center;}
 
+div.content#color{
+    padding: 2rem;
+}
 
-
+div.card-color {
+    padding: 2rem;
+}
 
