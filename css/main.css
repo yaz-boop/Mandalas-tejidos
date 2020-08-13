@@ -8,7 +8,7 @@ body{
     image-resolution: 100%;
     align-items: center;
     width: 100%;
-    text-align: center
+    text-align: center;
 }  
 
 .image{
@@ -59,7 +59,7 @@ footer p{
 
 .jumbotron{
     text-align: center;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0 !important;
 }
 
@@ -89,14 +89,13 @@ div#made{
     padding: 2rem;
 }
 
-
 .image2{align-items: center;}
 
-.card-text{font-family: fantasy;
-    text-align: center;}
+.card-text{font-family: Arial, Helvetica, sans-serif;
+   text-align: justify;}
 
 .card-title{font-family: Arial, Helvetica, sans-serif;
-    text-align: center;}
+    text-align: justify;}
 
 div.content#color{
     padding: 2rem;
@@ -106,3 +105,6 @@ div.card-color {
     padding: 2rem;
 }
 
+.nav-link2{text-align: center;
+    color: black;
+}
