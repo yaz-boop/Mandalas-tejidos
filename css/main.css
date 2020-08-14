@@ -22,7 +22,12 @@ img.icon{
 
 nav{
     background-color:#8E85A7!important;
+    /*position: fixed !important;
+    width: 100%;
+    z-index: 200;*/
 }
+
+
 
 a.nav-link{
  color:white;
@@ -36,7 +41,7 @@ a.nav-link:hover{
 
    .navbar-toggler{
        border:1px solid white !important;
-    background-color: white !important;
+ 
    }
 
 img.logo-nav{
@@ -108,3 +113,22 @@ div.card-color {
 .nav-link2{text-align: center;
     color: black;
 }
+
+@media (min-width: 700px) { 
+    div#carouselResponsive{
+        display: none;
+    }
+    
+ }
+
+
+ /*Estilos para mobile*/
+ @media (max-width: 701px) { 
+    div#carousel{
+        display: none;
+    }
+    .display-4{
+        font-size: 2rem!important;
+    }
+    
+ }
