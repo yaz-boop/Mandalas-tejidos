@@ -130,5 +130,7 @@ div.card-color {
     .display-4{
         font-size: 2rem!important;
     }
-    
+    .a {text-align: center;
+        color: black;}
  }
+ #color{text-align: center;}
